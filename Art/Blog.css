@@ -1,0 +1,331 @@
+@import url('https://fonts.googleapis.com/css2?family=Cormorant+SC:wght@300;400;500;600;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Caveat:wght@400..700&display=swap');
+.body{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+.blog{
+   
+    width:100%;
+    background-color: #ffffff;
+
+}
+.blog nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 20px;
+    
+}
+.blog nav ul{
+    list-style: none;
+    display: flex;
+    padding-right: 120px;
+    margin-right: 120px;
+}
+.blog nav ul li a{
+    text-decoration: none;
+    color: rgb(32, 32, 32);
+    font-family: "lato";
+    font-size: 16px;
+    font-weight: 500;
+    margin-right: 50px;
+    font-weight: 700 normal;
+   
+}
+.blog nav ul i{
+    font-size: 26px;
+}
+.blog nav img{
+    width: 80px;
+    margin-left: 200px;
+    margin-top:20px;
+}
+#blog{
+position: relative;
+bottom: 10px;
+margin-left: 230px;
+}
+#blog h1{
+    font-family: "Cormorant SC";
+    font-size: 72px;
+    text-align: center;
+    margin-right: 270px;
+    line-height: 86px;
+    font-weight: 700 normal;
+    margin-left: 80px;
+}
+#blog h3{
+    font-size: 72px;
+    text-align: center;
+    font-family: "caveat";
+    font-weight: 400 normal;
+    line-height: 86px;
+   left:460px;
+   top: 60px;
+   transform: skew(10deg, -10deg);
+    margin-bottom: 0;
+    position: absolute;
+
+}
+#blog #blog-post{
+    display: flex;
+    margin-top: 90px;
+    margin-right: 20px;
+}
+#blog #blog-text{
+    background-color: rgb(186 170 150);
+    box-shadow: none;
+    width:550px
+}
+#blog #blog-post div img{
+    width:600px;
+}
+#blog #blog-text h2{
+    font-family: "Cormorant SC";
+    font-size: 46px;
+    width:390px;
+    margin-left: 70px;
+    color: rgb(237, 233, 228);
+   position: relative;
+   top:70px;
+}
+#blog #blog-text p{
+    width: 450px;
+    font-size: 16px;
+    font-family: "lato";
+    font-weight: 400 normal;
+    margin-left: 70px;
+    position: relative;
+    top:70px;
+    color: rgb(237, 233, 228);
+}
+#blog #blog-text button{
+    margin-left: 70px;
+    padding: 20px 20px;
+    position: relative;
+    top:100px;
+    font-size: 16px;
+    border-style: solid;
+    text-align: center;
+    font-family: "lato";
+    font-weight: 400 normal;
+    color:gainsboro ;
+    background-color: rgb(32, 32, 32);
+    width: 200px;
+    cursor: pointer;
+}
+ #blog #blog-text button:hover{
+    background-color: rgb(64, 64, 64);
+}
+#blog-1{
+position: relative;
+bottom: 10px;
+margin-left: 230px;
+}
+
+#blog-1 #blog-post{
+    display: flex;
+    margin-top: 90px;
+    margin-right: 80px;
+}
+#blog-1 #blog-text{
+    background-color: rgb(186 170 150);
+    box-shadow: none;
+    width:550px
+}
+#blog-1 #blog-post div img{
+    width:600px;
+}
+#blog-1 #blog-text h2{
+    font-family: "Cormorant SC";
+    font-size: 46px;
+    width:390px;
+    margin-left: 70px;
+    color: rgb(237, 233, 228);
+   position: relative;
+   top:70px;
+}
+#blog-1 #blog-text p{
+    width: 450px;
+    font-size: 16px;
+    font-family: "lato";
+    font-weight: 400 normal;
+    margin-left: 70px;
+    position: relative;
+    top:70px;
+    color: rgb(237, 233, 228);
+}
+#blog-1 #blog-text button{
+    margin-left: 70px;
+    padding: 20px 20px;
+    position: relative;
+    top:100px;
+    font-size: 16px;
+    border-style: solid;
+    text-align: center;
+    font-family: "lato";
+    font-weight: 400 normal;
+    color:gainsboro ;
+    background-color: rgb(32, 32, 32);
+    width: 200px;
+    cursor: pointer;
+}
+ #blog-1 #blog-text button:hover{
+    background-color: rgb(64, 64, 64);
+}
+#blog-2{
+position: relative;
+bottom: 10px;
+margin-left: 230px;
+}
+
+#blog-2 #blog-post{
+    display: flex;
+    margin-top: 90px;
+    margin-right: 80px;
+}
+#blog-2 #blog-text{
+    background-color: rgb(186 170 150);
+    box-shadow: none;
+    width:550px
+}
+#blog-2 #blog-post div img{
+    width:600px;
+}
+#blog-2 #blog-text h2{
+    font-family: "Cormorant SC";
+    font-size: 46px;
+    width:390px;
+    margin-left: 70px;
+    color: rgb(237, 233, 228);
+   position: relative;
+   top:70px;
+}
+#blog-2 #blog-text p{
+    width: 450px;
+    font-size: 16px;
+    font-family: "lato";
+    font-weight: 400 normal;
+    margin-left: 70px;
+    position: relative;
+    top:70px;
+    color: rgb(237, 233, 228);
+}
+#blog-2 #blog-text button{
+    margin-left: 70px;
+    padding: 20px 20px;
+    position: relative;
+    top:100px;
+    font-size: 16px;
+    border-style: solid;
+    text-align: center;
+    font-family: "lato";
+    font-weight: 400 normal;
+    color:gainsboro ;
+    background-color: rgb(32, 32, 32);
+    width: 200px;
+    cursor: pointer;
+}
+ #blog-2 #blog-text button:hover{
+    background-color: rgb(64, 64, 64);
+}
+#blog-3{
+    text-align: center;
+    position: relative;
+    bottom:0px;
+}
+#blog-3 h1{
+    font-family: "cormorant SC";
+    width:280px;
+    font-size: 46px;
+    text-align: center;
+    font-weight: 700 normal;
+    margin-left: 670px;
+}
+#blog-3 small{
+    font-family: "lato";
+    font-size: 26px;
+    margin-left: 100px;
+    font-weight: 500 normal;
+}
+#blog-3 #icons i{
+    margin-top: 50px;
+    margin-left:80px;
+    font-size: 30px;
+    width:10px
+
+}
+#blog-4{
+    display: flex;
+    gap:0px;
+    position: relative;
+    top:60px;
+}
+#blog-4 #insta img{
+    width:371px;
+    height:390px;
+    cursor: pointer;
+}
+#blog-4 #insta img:hover{
+    transform:scale(1.05);
+    transform: all 0.2s ease-in-out;
+
+}
+#footer{
+    background-color: rgb(32, 32, 32);
+    position: relative;
+    bottom: 0px;
+    height:500px;
+}
+#footer #footer-content{
+ display: flex;
+    gap:390px;
+    position: relative;
+    top:150px;
+     margin-left: 100px;
+      color: rgb(237, 233, 228);
+}
+#footer ul li{
+    list-style: none;
+
+
+}
+#footer ul li a{
+text-decoration: none;
+    margin-right: 30px;
+   font-family: "cormorant SC";
+   font-size: 24px;
+   line-height: 70px;
+     color: rgb(237, 233, 228);
+   width:100%;
+   font-weight: 700 normal;
+   word-spacing: normal;
+   text-align: left;
+  position: relative;
+  bottom:70px;
+}
+#footer ul li a:hover{
+    color: rgb(186, 170, 150);
+}
+#footer #footer-content h1{
+    font-family: 'caveat';
+    font-weight: 400 normal;
+    font-size: 50px;
+    width:100%
+}
+#footer #footer-content p{
+font-family: 'lato';
+font-weight: 400 normal;
+font-size:16px;
+margin-left: 58px;
+}
+#footer #footer-content small{
+    font-family: 'lato';
+    font-weight: 400 normal;
+    font-size: 14px;
+}
+
+

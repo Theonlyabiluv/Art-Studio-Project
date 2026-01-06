@@ -1,0 +1,208 @@
+@import url('https://fonts.googleapis.com/css2?family=Cormorant+SC:wght@300;400;500;600;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Caveat:wght@400..700&display=swap');
+.body{
+    box-sizing: border-box;
+    margin: 0;
+
+}
+.art{
+    background-size: cover;
+    width:100%;
+    background-color:#ffffff;
+
+}
+.art nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 20px;
+    
+}
+.art nav ul{
+    list-style: none;
+    display: flex;
+    padding-right: 120px;
+    margin-right: 120px;
+}
+.art nav ul li a{
+    text-decoration: none;
+    color: rgb(32, 32, 32);
+    font-family: "lato";
+    font-size: 16px;
+    font-weight: 500;
+    margin-right: 50px;
+    font-weight: 700 normal;
+   
+}
+.art nav ul i{
+    font-size: 26px;
+}
+.art nav img{
+    width: 80px;
+    margin-left: 200px;
+    margin-top:20px;
+}
+.page{
+display: flex;
+}
+.page img{
+    margin-left: 190px;
+    position: relative;
+    top: 80px;
+}
+.page .page-1 h1{
+    text-align: center;
+    font-family: 'caveat';
+    font-weight: 400 normal;
+    font-size: 72px;
+    margin-left: 695px;
+    line-height: 86px;
+    position: relative;
+    bottom: 720px;
+    color:rgb(32, 32, 32)
+}
+.page .page-2{
+    position: relative;
+    top: 200px;
+}
+.page .page-2 h1{
+    font-family: 'Cormorant SC';
+    font-weight: 700 normal;
+    font-size: 72px;
+    color: rgb(32, 32, 32);
+}
+.page .page-2 p{
+    font-size: 16px;
+    line-height: 24px;
+    font-family: 'lato';
+    font-weight: 400 normal;
+    color: rgb(32, 32, 32);
+    width:480px;
+}
+.passion{
+    display: flex;
+    margin-left: 180px;
+
+}
+.passion div p{
+    font-size: 16px;
+    line-height: 24px;
+    font-family: 'lato';
+    font-weight:400 normal;
+    width:470px;
+}
+
+.passion .passion-img-1 img{
+position: relative;
+left:270px;
+bottom:15%
+
+}
+.passion .passion-img img{
+    position: relative;
+    top:190px;
+    right:330px
+    
+  
+
+}
+.social{
+    text-align: center;
+    position: relative;
+    bottom:10px;
+}
+.social h1{
+    font-family: "cormorant SC";
+    width:280px;
+    font-size: 46px;
+    text-align: center;
+    font-weight: 700 normal;
+    margin-left: 600px;
+}
+.social small{
+    font-family: "lato";
+    font-size: 26px;
+    margin-left: 10px;
+    font-weight: 500 normal;
+}
+.social .icons i{
+    margin-top: 50px;
+    margin-left:10px;
+    font-size: 30px;
+    width:50px;
+
+}
+#insta{
+     display: flex;
+    gap:0px;
+    position: relative;
+    bottom: 0px;
+}
+ #insta img{
+    width:371px;
+    height:390px;
+    cursor: pointer;
+}
+#insta img:hover{
+    transform:scale(1.05);
+    transform: all 0.2s ease-in-out;
+}
+#foot {
+     background-color: rgb(32, 32, 32);
+    position: relative;
+    bottom: 0px;
+    height:500px;
+}
+#foot #links{
+ display: flex;
+    gap:390px;
+    position: relative;
+    top:150px;
+     margin-left: 100px;
+      color: rgb(237, 233, 228);
+}
+#foot #links ul li{
+    list-style: none;
+
+
+}
+#foot #links ul li a{
+text-decoration: none;
+    margin-right: 30px;
+   font-family: "cormorant SC";
+   font-size: 24px;
+   line-height: 70px;
+     color: rgb(237, 233, 228);
+   width:100%;
+   font-weight: 700 normal;
+   word-spacing: normal;
+   text-align: left;
+  position: relative;
+  bottom:70px;
+
+}
+#foot #links ul li a:hover{
+    color: rgb(186, 170, 150);
+}
+#foot #links #logo h1{
+    font-family: 'caveat';
+    font-weight: 400 normal;
+    font-size: 50px;
+    width:100%
+}
+#foot #links #logo-1 p{
+font-family: 'lato';
+font-weight: 400 normal;
+font-size:16px;
+margin-left: 58px;
+}
+#foot #links #logo-1 small{
+    font-family: 'lato';
+    font-weight: 400 normal;
+    font-size: 14px;
+    
+}
+
+
+

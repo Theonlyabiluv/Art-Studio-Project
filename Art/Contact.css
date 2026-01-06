@@ -1,0 +1,255 @@
+@import url('https://fonts.googleapis.com/css2?family=Cormorant+SC:wght@300;400;500;600;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Caveat:wght@400..700&display=swap');
+.body{
+    box-sizing: border-box;
+    margin: 0;
+}
+.contact{
+    
+    width:100%;
+    
+}
+.contact nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 20px;
+    
+}
+.contact nav ul{
+    list-style: none;
+    display: flex;
+    padding-right: 120px;
+    margin-right: 120px;
+}
+.contact nav ul li a{
+    text-decoration: none;
+    color: rgb(32, 32, 32);
+    font-family: "lato";
+    font-size: 16px;
+    font-weight: 500;
+    margin-right: 50px;
+    font-weight: 700 normal;
+   
+}
+.contact nav ul i{
+    font-size: 26px;
+}
+.contact nav img{
+    width: 80px;
+    margin-left: 200px;
+    margin-top:20px;
+}
+
+.page-contact{
+    margin: 0;
+}
+.page-contact h1{
+    text-align: center;
+    font-size: 72px;
+    line-height: 86px;
+    color: rgb(32, 32, 32);
+    font-weight: 700 normal;
+    font-family: 'Cormorant SC';
+    margin-bottom: 0;
+    margin-top: 80px;
+}
+.page-contact .page-contact-1{
+    display: flex;
+    gap:60px;
+}
+ .page-contact-1, #talk{
+margin:0;
+
+ 
+
+
+}
+ #talk h3{
+    font-family: 'caveat';
+    font-size: 72px;
+    transform: skew(10deg, -10deg);
+    width:400px;
+    text-align: left;
+
+}
+ #talk img{
+    width:700px;
+    height: 1100px;
+    margin-left: 0;
+    margin-right: 0;
+    position: relative;
+    bottom:160px;
+   
+}
+.page-contact .form {
+    position: relative;
+    top:260px;
+
+}
+.page-contact .form h1{
+    font-family: 'Cormorant SC';
+    font-size: 46px;
+    line-height: 48px;
+    color: rgb(32, 32, 32);
+    font-weight: 700 normal;
+    width:650px;
+    text-align: left;
+
+}
+.page-contact .form p{
+    font-family: 'lato';
+    font-size: 16px;
+    line-height: 26px;
+    color: rgb(32, 32, 32);
+    font-weight: 400 normal;
+    width:580px;
+    position: relative;
+    top:70px;
+}
+.page-contact #icons i{
+    position: relative;
+    top:100px;
+    font-size: 30px;
+    width:50px;
+}
+.page-contact .input{
+    position: relative;
+    top:100px;
+}
+.page-contact .input p{
+    font-size: 16px;
+    font-family: 'lato';
+    font-weight: 400 normal;
+    padding-top: 10px;
+    color: rgb(32, 32, 32);
+
+}
+.page-contact .input .line{
+    width:500px;
+    padding-top: 30px;
+    margin-top: 20px;
+      display: inline-block;
+  width: 500px;
+  border-bottom: 1px solid black;
+}
+.page-contact button{
+   border-radius: 0;
+    color: #ffffff;
+   background-color: rgb(32, 32, 32);
+   position: relative;
+   top:160px;
+   width:200px;
+   padding-left:80px;
+   padding-right: 80px;
+   padding-top: 15px;
+   padding-bottom: 15px;
+   font-size: 16px;
+   cursor: pointer;
+   font-family: 'lato';
+   font-weight: 400 normal;
+}
+.page-contact button:hover{
+    background-color: rgb(64, 64, 64);
+}
+
+#main-5{
+    text-align: center;
+    position: relative;
+  top:60px;
+
+   
+}
+#main-5 h1{
+    font-family: "cormorant SC";
+    width:280px;
+    font-size: 46px;
+    text-align: center;
+    font-weight: 700 normal;
+    margin-left: 670px;
+   
+}
+#main-5 small{
+    font-family: "lato";
+    font-size: 26px;
+    margin-left: 100px;
+    font-weight: 500 normal;
+}
+#main-5 #icons-1 i{
+    margin-top: 50px;
+    margin-left:80px;
+    font-size: 30px;
+    width:0px
+
+}
+#main-6{
+    display: flex;
+    gap:0px;
+    position: relative;
+    top: 250px;
+}
+#main-6 #insta img{
+    width:371px;
+    height:390px;
+    cursor: pointer;
+}
+#main-6 #insta img:hover{
+    transform:scale(1.05);
+    transform: all 0.2s ease-in-out;
+
+}
+#footer{
+    background-color: rgb(32, 32, 32);
+    position: relative;
+    top: 220px;
+    height:500px;
+}
+#footer #footer-content{
+ display: flex;
+    gap:390px;
+    position: relative;
+    top:150px;
+     margin-left: 100px;
+      color: rgb(237, 233, 228);
+}
+#footer ul li{
+    list-style: none;
+
+
+}
+#footer ul li a{
+text-decoration: none;
+    margin-right: 30px;
+   font-family: "cormorant SC";
+   font-size: 24px;
+   line-height: 70px;
+     color: rgb(237, 233, 228);
+   width:100%;
+   font-weight: 700 normal;
+   word-spacing: normal;
+   text-align: left;
+  position: relative;
+  bottom:70px;
+}
+#footer ul li a:hover{
+    color: rgb(186, 170, 150);
+}
+#footer #footer-content h1{
+    font-family: 'caveat';
+    font-weight: 400 normal;
+    font-size: 50px;
+    width:100%
+}
+#footer #footer-content p{
+font-family: 'lato';
+font-weight: 400 normal;
+font-size:16px;
+margin-left: 58px;
+}
+#footer #footer-content small{
+    font-family: 'lato';
+    font-weight: 400 normal;
+    font-size: 14px;
+}
+

@@ -1,0 +1,231 @@
+ @import url('https://fonts.googleapis.com/css2?family=Cormorant+SC:wght@300;400;500;600;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Caveat:wght@400..700&display=swap');
+.body{
+    box-sizing: border-box;
+    margin: 0;
+
+}
+.art{
+    background-size: cover;
+    width:100%;
+    background-color:#ffffff;
+
+}
+.art nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 20px;
+    
+}
+.art nav ul{
+    list-style: none;
+    display: flex;
+    padding-right: 120px;
+    margin-right: 120px;
+}
+.art nav ul li a{
+    text-decoration: none;
+    color: rgb(32, 32, 32);
+    font-family: "lato";
+    font-size: 16px;
+    font-weight: 500;
+    margin-right: 50px;
+    font-weight: 700 normal;
+   
+}
+.art nav ul i{
+    font-size: 26px;
+}
+.art nav img{
+    width: 80px;
+    margin-left: 200px;
+    margin-top:20px;
+}
+
+#cont {
+     background-color: rgb(32, 32, 32);
+    position: relative;
+    bottom: 0px;
+    height:500px;
+    display: flex;
+}
+#cont #cont-1{
+ 
+    gap:390px;
+    position: relative;
+    top:150px;
+     margin-left: 100px;
+      color: rgb(237, 233, 228);
+}
+#cont #cont-1 ul li{
+    list-style: none;
+
+
+}
+#cont #cont-1 ul li a{
+text-decoration: none;
+    margin-right: 30px;
+   font-family: "cormorant SC";
+   font-size: 24px;
+   line-height: 70px;
+     color: rgb(237, 233, 228);
+   width:100%;
+   font-weight: 700 normal;
+   word-spacing: normal;
+   text-align: left;
+  position: relative;
+  bottom:70px;
+
+}
+#cont #cont-1 ul li a:hover{
+    color: rgb(186, 170, 150);
+}
+#offer h1{
+    text-align: center;
+    font-size: 72px;
+    line-height: 86px;
+    font-family: "Cormorant SC" 700 normal;
+    color: rgb(32, 32, 32);
+
+}
+#offer #paint{
+    display: flex;
+    justify-content: center;
+    gap:150px;
+}
+#offer #paint img{
+    width:486px;
+    height:408px;
+    margin-left: 0px;
+    margin-top: 0px;
+   
+}
+#paint-text h2{
+font-family: "Cormorant SC" 700 normal;
+font-size: 46px;
+line-height: 48px;
+color: rgb(32, 32, 32);
+
+}
+#paint-text p{
+    font-family: 'lato' 400 normal;
+    font-size: 16px;
+    line-height: 24px;
+    color: rgb(32, 32, 32);
+    width:540px;
+
+}
+#cart{
+    display: flex;
+    justify-content: center;
+    margin-left: 670px;
+    gap:40px;
+}
+#cart h3{
+    font-family: 'Cormorant SC' 700 normal;
+    font-weight: bold;
+    font-size: 24px;
+    color: rgb(32, 32, 32);
+    line-height: 32px;
+    width:250px;
+
+
+}
+#cart button{
+    text-align: center;
+    background-color: rgb(32, 32, 32);
+    font-size: 16px;
+    line-height: 24px;
+    font-family: 'lato'400 normal;
+    width:300px;
+height:80px;  
+    color: #ffffff;
+}
+#cart button:hover{
+    background-color: rgb(64, 64, 64);
+}
+#offer-1 div{
+    display:flex;
+    margin-top: 50px;
+    gap:20px;
+   opacity: 0;
+}
+#offer-1 div:hover{
+    opacity: 1;
+}
+#offer-1 #mal-1 img{
+    width:450px;
+    height:487px;
+}
+#offer-1 #mal-2 img{
+    margin-top: 100px;
+    width: 400px;
+    height:387px;
+}
+#offer-1 #mal-3 img{
+    width:300px;
+    position: relative;
+    bottom:40px;
+    height: 387px;
+    
+}
+#offer-1 #mal-4 img{
+    margin-top: 100px;
+    width: 300px;
+    height:387px;
+}
+#offer-2{
+    background-color: rgb(237, 233, 228);
+    margin-top: 70px;
+}
+#paint-1{
+    display: flex;
+    justify-content: center;
+    gap:140px;
+    padding: 140px;;
+}
+#paint-1 h1{
+    font-size: 46px;
+    line-height: 48px;
+    font-family: 'Cormorant SC' 700 normal;
+    color: rgb(32, 32, 32);
+
+}
+#paint-1 p{
+   
+    font-size:16px;
+    line-height:24px;
+    font-family:'lato'400 normal;
+    color:rgb(32, 32, 32);
+    width:540px;
+   
+}
+#wall{
+    display: flex;
+    justify-content: left;
+    gap:50px;
+    position: relative;
+    bottom: 160px;
+    margin-left: 170px;
+}
+#wall h3{
+    font-family: 'Cormorant SC' 700 normal;
+    font-weight: bold;
+    font-size: 24px;
+    color: rgb(32, 32, 32);
+    line-height: 32px;
+    width:290px;
+}
+#wall button{
+    text-align: center;
+    background-color: rgb(32, 32, 32);
+    font-size: 16px;
+    line-height: 24px;
+    font-family: 'lato'400 normal;
+    width:280px;
+    padding: 0px;
+height:80px;  
+    color: #ffffff;
+}
