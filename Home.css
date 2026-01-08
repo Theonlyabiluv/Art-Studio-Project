@@ -315,7 +315,7 @@ body {
   text-align: center;
   color: gainsboro;
   background-color: rgb(32, 32, 32);
-  width: 18%;
+  width: 16%;
   padding-block: 1rem;
   cursor: pointer;
   transition: background-color 0.2s ease-in-out;
@@ -324,40 +324,44 @@ body {
   background-color: rgb(64, 64, 64);
 }
 
-#main-4 {
-  text-align: center;
-  position: relative;
-  bottom: 250px;
+/* Contact section */
+
+.contact-section {
+  width: 100%;
+  padding-block: 3rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-block: 4rem 0;
   background-color: rgb(237, 233, 228);
-  box-shadow: none;
-  height: 400px;
 }
-#main-4 h1 {
-  font-size: 46px;
-  font-family: "cormorant SC";
-  font-weight: 700 normal;
+.contact-section h2 {
+  width: 60%;
+  text-align: center;
+  font-family: "Cormorant SC";
+  font-size: 2.2rem;
+  font-weight: 700;
+  text-transform: uppercase;
+  line-height: 1.5;
   color: rgb(32, 32, 32);
-  width: 800px;
-  margin-left: 400px;
-  padding-top: 50px;
 }
-#main-4 button {
+.contact-section button {
+  font-size: 0.9rem;
+  border: none;
+  font-weight: 400;
+  text-align: center;
   color: gainsboro;
   background-color: rgb(32, 32, 32);
-  width: 240px;
+  width: 16%;
+  margin-block: 1.5rem 0;
+  padding-block: 1rem;
   cursor: pointer;
-  position: relative;
-  top: 50px;
-  font-family: "lato";
-  border-style: solid;
-  text-align: center;
-  font-size: 16px;
-  padding: 20px 20px;
-  margin-left: 110px;
+  transition: background-color 0.2s ease-in-out;
 }
-#main-4 button:hover {
+.contact-section button:hover {
   background-color: rgb(64, 64, 64);
 }
+
 #main-5 {
   text-align: center;
   position: relative;
