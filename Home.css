@@ -12,9 +12,11 @@ body {
   font-size: 62.5%;
 }
 
+/* Header section */
+
 .header {
   background-size: cover;
-  height: 100vh;
+  height: 110vh;
   width: 100%;
   background-color: rgb(237, 233, 228);
 }
@@ -23,14 +25,15 @@ body {
   justify-content: space-between;
   align-items: center;
   width: 100%;
-  padding: 0.5rem 7rem;
+  padding: 0.5rem 2rem;
+  box-shadow: inset 0 4px 0 0 rgb (32, 32, 32);
 }
 
 .logo {
   width: 4rem;
 }
 
-img {
+.logo img {
   width: 100%;
   object-fit: cover;
   object-position: center;
@@ -58,48 +61,61 @@ img {
 .fa-cart-shopping {
   font-size: 2rem;
 }
-#main {
+
+.hero {
+  width: 100%;
+  padding-inline: 2rem;
   display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+  margin-block: 3rem 0;
+  border: 1px solid black;
 }
-#main #text h1 {
-  width: 450px;
-  position: relative;
-  bottom: 500px;
-  margin-left: 200px;
+
+.hero-text {
+  width: 40%;
+}
+.hero h1 {
   font-family: "Cormorant SC";
-  font-size: 40px;
+  font-size: 2.2rem;
+  font-weight: 600;
+  text-transform: uppercase;
+  line-height: 1.5;
 }
-#main #text p {
-  width: 450px;
-  position: relative;
-  bottom: 500px;
-  margin-left: 200px;
+.hero-text p {
   font-family: "lato ";
-  font-weight: 400 normal;
-  font-size: 16px;
+  font-weight: 400;
+  font-size: 1.2rem;
+  margin-block: 1rem 1.8rem;
+  line-height: 1.5;
 }
-#main #text button {
-  position: relative;
-  bottom: 500px;
-  margin-left: 200px;
-  padding: 20px 20px;
-  font-size: 16px;
-  border-style: solid;
+.hero-text button {
+  font-size: 0.9rem;
+  border: none;
+  font-weight: 400;
   text-align: center;
   color: gainsboro;
   background-color: rgb(32, 32, 32);
-  width: 250px;
+  width: 40%;
+  padding-block: 1rem;
   cursor: pointer;
+  transition: background-color 0.2s ease-in-out;
 }
-#main #text button:hover {
+.hero button:hover {
   background-color: rgb(64, 64, 64);
 }
 
-#main #text-img img {
-  position: relative;
-  bottom: 540px;
-  margin-left: 120px;
+.hero-img {
+  width: 40%;
 }
+
+.hero-img img {
+  width: 100%;
+  object-fit: cover;
+  object-position: center;
+  aspect-ratio: 3/4;
+}
+
 #main-2 {
   display: flex;
 }
