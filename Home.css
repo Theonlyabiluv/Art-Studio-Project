@@ -55,11 +55,11 @@ body {
   text-decoration: none;
   color: rgb(32, 32, 32);
   font-family: "lato";
-  font-size: 1.2rem;
+  font-size: 1rem;
   font-weight: 500;
 }
 .fa-cart-shopping {
-  font-size: 2rem;
+  font-size: 1.6rem;
 }
 
 .hero {
@@ -235,11 +235,11 @@ body {
 }
 
 .blog h3 {
-  font-size: 3.5rem;
+  font-size: 4rem;
   position: absolute;
   font-family: "caveat";
   font-weight: 300;
-  top: 20%;
+  top: 17%;
   left: 40%;
   font-style: italic;
   letter-spacing: 0.3rem;
@@ -248,7 +248,7 @@ body {
 .blog-post {
   display: flex;
   width: 100%;
-  margin-top: 7rem;
+  margin-top: 5rem;
 }
 
 .blog-img {
@@ -328,11 +328,11 @@ body {
 
 .contact-section {
   width: 100%;
-  padding-block: 3rem;
+  padding-block: 4rem;
   display: flex;
   flex-direction: column;
   align-items: center;
-  margin-block: 4rem 0;
+  margin-block: 3rem 0;
   background-color: rgb(237, 233, 228);
 }
 .contact-section h2 {
@@ -362,45 +362,70 @@ body {
   background-color: rgb(64, 64, 64);
 }
 
-#main-5 {
-  text-align: center;
-  position: relative;
-  bottom: 190px;
-}
-#main-5 h1 {
-  font-family: "cormorant SC";
-  width: 280px;
-  font-size: 46px;
-  text-align: center;
-  font-weight: 700 normal;
-  margin-left: 670px;
-}
-#main-5 small {
-  font-family: "lato";
-  font-size: 26px;
-  margin-left: 100px;
-  font-weight: 500 normal;
-}
-#main-5 #icons i {
-  margin-top: 50px;
-  margin-left: 80px;
-  font-size: 40px;
-  width: 10px;
-}
-#main-6 {
+/* Socials section */
+
+.socials-section {
+  width: 100%;
+  color: rgb(32, 32, 32);
+  padding-block: 4rem;
   display: flex;
-  gap: 0px;
-  position: relative;
-  bottom: 0px;
+  flex-direction: column;
+  align-items: center;
 }
-#main-6 #insta img {
-  width: 371px;
-  height: 390px;
+.socials-section h2 {
+  width: 30%;
+  text-align: center;
+  font-family: "Cormorant SC";
+  font-size: 2.2rem;
+  font-weight: 700;
+  text-transform: uppercase;
+  line-height: 1.5;
+  color: rgb(32, 32, 32);
+}
+
+.socials-section small {
+  font-family: "lato";
+  font-size: 1.8rem;
+  font-weight: 500;
+  margin-block: 1rem 0;
+}
+
+.socials-icons {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+}
+
+.fa-instagram,
+.fa-facebook,
+.fa-pinterest,
+.fa-tiktok {
+  margin-top: 2rem;
+  font-size: 1.6rem;
+}
+
+/* Studion section */
+
+.studio {
+  display: flex;
+  align-items: center;
+}
+
+.studio-img {
+  width: 25%;
+  overflow: hidden;
+}
+.studio-img img {
+  width: 100%;
+  object-fit: cover;
+  object-position: center;
+  aspect-ratio: 3/4;
   cursor: pointer;
+  transition: transform 0.3s ease-in-out;
 }
-#main-6 #insta img:hover {
-  transform: scale(1.05);
-  transform: all 0.2s ease-in-out;
+
+.studio-img > img:hover {
+  transform: scale(1.1);
 }
 #footer {
   background-color: rgb(32, 32, 32);
