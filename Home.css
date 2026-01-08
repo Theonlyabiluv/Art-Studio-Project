@@ -69,7 +69,6 @@ body {
   align-items: flex-start;
   justify-content: space-between;
   margin-block: 3rem 0;
-  border: 1px solid black;
 }
 
 .hero-text {
@@ -77,7 +76,7 @@ body {
 }
 .hero h1 {
   font-family: "Cormorant SC";
-  font-size: 2.2rem;
+  font-size: 2rem;
   font-weight: 600;
   text-transform: uppercase;
   line-height: 1.5;
@@ -116,47 +115,59 @@ body {
   aspect-ratio: 3/4;
 }
 
-#main-2 {
+/* About section */
+
+.about-section {
+  width: 100%;
+  padding-inline: 2rem;
   display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+  margin-block: 12rem 0;
 }
-#main-2 #text-2-img img {
-  position: relative;
-  bottom: 460px;
-  left: 100px;
-}
-#main-2 #text-2 h1 {
-  font-family: "Cormorant SC";
-  font-size: 40px;
-  position: relative;
-  bottom: 450px;
-  margin-left: 200px;
-  font-weight: 700;
-  color: rgb(32, 32, 32);
+.about-me-img {
+  width: 40%;
 }
 
-#main-2 #text-2 p {
-  width: 578px;
-  position: relative;
-  bottom: 450px;
-  margin-left: 200px;
-  font-family: "lato";
-  font-weight: 400 normal;
-  font-size: 16px;
+.about-me-img img {
+  width: 100%;
+  object-fit: cover;
+  object-position: center;
+  aspect-ratio: 3/4;
 }
-#main-2 #text-2 button {
-  position: relative;
-  bottom: 420px;
-  margin-left: 200px;
-  padding: 20px 20px;
-  font-size: 16px;
-  border-style: solid;
+
+.about-me {
+  width: 50%;
+}
+
+.about-me h1 {
+  font-family: "Cormorant SC";
+  font-size: 2rem;
+  font-weight: 600;
+  text-transform: uppercase;
+  line-height: 1.5;
+}
+.about-me p {
+  font-family: "lato ";
+  font-weight: 400;
+  font-size: 1.2rem;
+  margin-block: 1rem 1.8rem;
+  line-height: 1.5;
+}
+
+.about-me button {
+  font-size: 0.9rem;
+  border: none;
+  font-weight: 400;
   text-align: center;
   color: gainsboro;
   background-color: rgb(32, 32, 32);
-  width: 200px;
+  width: 40%;
+  padding-block: 1rem;
   cursor: pointer;
+  transition: background-color 0.2s ease-in-out;
 }
-#main-2 #text-2 button:hover {
+.about-section button:hover {
   background-color: rgb(64, 64, 64);
 }
 #main-3 {
