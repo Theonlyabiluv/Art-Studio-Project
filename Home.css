@@ -74,7 +74,7 @@ body {
 .hero-text {
   width: 40%;
 }
-.hero h1 {
+.hero h2 {
   font-family: "Cormorant SC";
   font-size: 2rem;
   font-weight: 600;
@@ -140,7 +140,7 @@ body {
   width: 50%;
 }
 
-.about-me h1 {
+.about-me h2 {
   font-family: "Cormorant SC";
   font-size: 2rem;
   font-weight: 600;
@@ -170,34 +170,48 @@ body {
 .about-section button:hover {
   background-color: rgb(64, 64, 64);
 }
-#main-3 {
+
+.passions-section {
+  width: 100%;
+  padding-inline: 2rem;
   background-color: rgb(32, 32, 32);
   color: whitesmoke;
-  position: relative;
-  bottom: 420px;
+  margin-block: 3rem 0;
+  padding-block: 2rem;
 }
-#main-3 h1 {
+.passions-section h1 {
   font-family: "Cormorant SC";
-  font-size: 90px;
+  font-size: 6rem;
+  font-weight: 800;
+  text-transform: uppercase;
   text-align: center;
 }
-#main-3 #pass {
-  display: flex;
-  gap: 20px;
-  margin-left: 160px;
+
+.passions-section h1 span {
+  font-size: 8rem;
 }
-#main-3 #pass div img {
-  position: relative;
-  bottom: 50px;
+.passion-imgs {
+  display: flex;
+  align-items: center;
+  gap: 2rem;
+  margin-block: 1rem 0.5rem;
+}
+.painting img,
+.murals img,
+.drawing img {
+  width: 100%;
   cursor: pointer;
 }
-#main-3 #pass h2 {
+.painting h2,
+.murals h2,
+.drawing h2 {
   text-align: center;
-  position: relative;
-  bottom: 40px;
   font-family: "Cormorant SC";
-  font-size: 40px;
-  font-weight: 700;
+  font-size: 2rem;
+  font-weight: 600;
+  text-transform: uppercase;
+  line-height: 1.5;
+  margin-block: 1rem 0;
 }
 #blog {
   position: relative;
