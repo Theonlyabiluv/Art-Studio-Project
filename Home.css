@@ -427,13 +427,13 @@ body {
 .studio-img > img:hover {
   transform: scale(1.1);
 }
-#footer {
+
+/* Footer section */
+
+.footer {
   background-color: rgb(32, 32, 32);
-  position: relative;
-  bottom: 0px;
-  height: 500px;
 }
-#footer #footer-content {
+.footer .footer-content {
   display: flex;
   gap: 390px;
   position: relative;
@@ -441,10 +441,10 @@ body {
   margin-left: 100px;
   color: rgb(237, 233, 228);
 }
-#footer ul li {
+.footer ul li {
   list-style: none;
 }
-#footer ul li a {
+.footer ul li a {
   text-decoration: none;
   margin-right: 30px;
   font-family: "cormorant SC";
@@ -458,32 +458,32 @@ body {
   position: relative;
   bottom: 70px;
 }
-#footer ul li a:hover {
+.footer ul li a:hover {
   color: rgb(186, 170, 150);
 }
-#footer #footer-content h1 {
+.footer .footer-content h1 {
   font-family: "caveat";
   font-weight: 400 normal;
   font-size: 50px;
   width: 100%;
 }
-#footer #footer-content p {
+.footer .footer-content p {
   font-family: "lato";
   font-weight: 400 normal;
   font-size: 16px;
   margin-left: 58px;
 }
-#footer #footer-content small {
+.footer .footer-content small {
   font-family: "lato";
   font-weight: 400 normal;
   font-size: 14px;
 }
-#footer #footer-content div strong {
+.footer .footer-content div strong {
   color: #fffeff;
   font-family: "lato";
   font-size: 16px;
 }
-#footer #footer-content strong + a {
+.footer .footer-content strong + a {
   font-size: 16px;
   line-height: inherit;
   cursor: pointer;
