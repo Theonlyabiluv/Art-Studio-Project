@@ -213,84 +213,117 @@ body {
   line-height: 1.5;
   margin-block: 1rem 0;
 }
-#blog {
+
+/* Blog section */
+
+.blog {
   position: relative;
-  bottom: 370px;
-  margin-left: 230px;
+  padding-inline: 2rem;
+  margin-block: 3rem 0;
 }
-#blog h1 {
+.blog h2 {
   font-family: "Cormorant SC";
-  font-size: 40px;
+  font-size: 2rem;
+  font-weight: 600;
+  text-transform: uppercase;
+  line-height: 1.5;
   text-align: center;
-  margin-right: 40px;
 }
-#blog h3 {
-  font-size: 72px;
-  text-align: center;
+
+.blog h2 span {
+  font-size: 3rem;
+}
+
+.blog h3 {
+  font-size: 3.5rem;
+  position: absolute;
   font-family: "caveat";
-  font-weight: 400 normal;
+  font-weight: 300;
+  top: 20%;
+  left: 40%;
+  font-style: italic;
+  letter-spacing: 0.3rem;
+  transform: translateY(-40%) rotate(-15deg);
 }
-#blog #blog-post {
+.blog-post {
   display: flex;
-  margin-top: 70px;
+  width: 100%;
+  margin-top: 7rem;
 }
-#blog #blog-text {
+
+.blog-img {
+  width: 50%;
+}
+
+.blog-img img {
+  width: 100%;
+  object-fit: cover;
+  object-position: center;
+  aspect-ratio: 3/3;
+}
+
+.blog-text {
   background-color: rgb(186 170 150);
-  box-shadow: none;
-  width: 550px;
+  width: 50%;
+  color: rgb(255, 254, 253);
+  padding-inline: 4rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
 }
-#blog #blog-post div img {
-  width: 600px;
-}
-#blog #blog-text h2 {
+.blog-text h2 {
   font-family: "Cormorant SC";
-  font-size: 46px;
-  width: 390px;
-  margin-left: 70px;
-  color: rgb(237, 233, 228);
+  font-size: 2rem;
+  font-weight: 600;
+  text-transform: uppercase;
+  line-height: 1.5;
+  text-align: left;
 }
-#blog #blog-text p {
-  width: 450px;
-  font-size: 16px;
-  font-family: "lato";
-  font-weight: 400 normal;
-  margin-left: 70px;
-  margin-bottom: 40px;
+.blog-text p {
+  font-family: "lato ";
+  font-weight: 400;
+  font-size: 1.2rem;
+  margin-block: 1rem 1.8rem;
+  line-height: 1.5;
 }
-#blog #blog-text button {
-  margin-left: 200px;
-  padding: 20px 20px;
-  font-size: 16px;
-  border-style: solid;
+.blog-text button {
+  font-size: 0.9rem;
+  border: none;
+  font-weight: 400;
   text-align: center;
-  font-family: "lato";
-  font-weight: 400 normal;
   color: gainsboro;
   background-color: rgb(32, 32, 32);
-  width: 200px;
+  width: 40%;
+  padding-block: 1rem;
   cursor: pointer;
+  transition: background-color 0.2s ease-in-out;
 }
-#blog #blog-text button:hover {
+.blog-text button:hover {
   background-color: rgb(64, 64, 64);
 }
-#blog .more button {
-  margin-left: 450px;
-  padding: 20px 20px;
-  font-size: 16px;
-  border-style: solid;
+
+.see-more-btn {
+  display: flex;
+  justify-content: center;
+  margin-block: 3rem 0;
+}
+
+.see-more-btn button {
+  font-size: 0.9rem;
+  border: none;
+  font-weight: 400;
   text-align: center;
-  font-family: "lato";
-  font-weight: 400 normal;
   color: gainsboro;
   background-color: rgb(32, 32, 32);
-  width: 240px;
+  width: 18%;
+  padding-block: 1rem;
   cursor: pointer;
-  position: relative;
-  top: 50px;
+  transition: background-color 0.2s ease-in-out;
 }
-#blog .more button:hover {
+.see-more-btn button:hover {
   background-color: rgb(64, 64, 64);
 }
+
 #main-4 {
   text-align: center;
   position: relative;
