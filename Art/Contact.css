@@ -10,37 +10,47 @@ body{
     width:100%;
     
 }
-.contact nav{
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    gap: 20px;
-    
+nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 90%;
+  padding: 0.5rem 2rem;
+  box-shadow: inset 0 4px 0 0 rgb (32, 32, 32);
 }
-.contact nav ul{
-    list-style: none;
-    display: flex;
-    padding-right: 120px;
-    margin-right: 120px;
+
+.logo {
+  font-family: "caveat";
+  font-weight: 100;
+  font-size: 2.5rem;
+  text-transform: capitalize;
 }
-.contact nav ul li a{
-    text-decoration: none;
-    color: rgb(32, 32, 32);
-    font-family: "lato";
-    font-size: 16px;
-    font-weight: 500;
-    margin-right: 50px;
-    font-weight: 700 normal;
-   
+
+.nav-list {
+  display: flex;
+  align-items: center;
+  gap: 4rem;
 }
-.contact nav ul i{
-    font-size: 26px;
+.nav-links {
+  list-style: none;
+  display: flex;
+  align-items: center;
+  gap: 3rem;
 }
-.contact nav img{
-    width: 80px;
-    margin-left: 200px;
-    margin-top:20px;
+.nav-links a {
+  text-decoration: none;
+  color: rgb(32, 32, 32);
+  font-family: "lato";
+  font-size: 1rem;
+  font-weight: 500;
 }
+.nav-links a:hover{
+    color: rgb(186, 170, 150);
+}
+.fa-cart-shopping {
+  font-size: 1.6rem;
+}
+
 
 .page-contact{
     margin: 0;

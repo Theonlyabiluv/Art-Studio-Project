@@ -31,7 +31,7 @@ body {
 
 .logo {
   font-family: "caveat";
-  font-weight: 100;
+  font-weight: 90;
   font-size: 2.5rem;
   text-transform: capitalize;
 }
@@ -54,6 +54,9 @@ body {
   font-size: 1rem;
   font-weight: 500;
 }
+.nav-links a:hover{
+    color: rgb(186, 170, 150);
+}
 .fa-cart-shopping {
   font-size: 1.6rem;
 }
@@ -73,9 +76,13 @@ body {
 .hero h2 {
   font-family: "Cormorant SC";
   font-size: 2rem;
-  font-weight: 600;
+  font-weight: 700 normal;
   text-transform: uppercase;
   line-height: 1.5;
+  margin-top: 150px;
+  width:70%;
+  margin-left: 15%;
+  
 }
 .hero-text p {
   font-family: "lato ";
@@ -83,6 +90,7 @@ body {
   font-size: 1.2rem;
   margin-block: 1rem 1.8rem;
   line-height: 1.5;
+  margin-left: 15%;
 }
 .hero-text button {
   font-size: 0.9rem;
@@ -94,6 +102,7 @@ body {
   width: 40%;
   padding-block: 1rem;
   cursor: pointer;
+  margin-left: 15%;
   transition: background-color 0.2s ease-in-out;
 }
 .hero button:hover {
@@ -102,6 +111,7 @@ body {
 
 .hero-img {
   width: 40%;
+  margin-right:5%;
 }
 
 .hero-img img {
@@ -139,9 +149,10 @@ body {
 .about-me h2 {
   font-family: "Cormorant SC";
   font-size: 2rem;
-  font-weight: 600;
+  font-weight: 700 normal;
   text-transform: uppercase;
   line-height: 1.5;
+  margin-top: 20%;
 }
 .about-me p {
   font-family: "lato ";
