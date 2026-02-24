@@ -105,6 +105,10 @@ body {
   margin-left: 15%;
   transition: background-color 0.2s ease-in-out;
 }
+.hero-text button a{
+  text-decoration: none;
+  color:white;
+}
 .hero button:hover {
   background-color: rgb(64, 64, 64);
 }
@@ -173,6 +177,10 @@ body {
   padding-block: 1rem;
   cursor: pointer;
   transition: background-color 0.2s ease-in-out;
+}
+.about-me button a{
+  text-decoration: none;
+  color: white;
 }
 .about-section button:hover {
   background-color: rgb(64, 64, 64);
@@ -327,6 +335,10 @@ body {
   cursor: pointer;
   transition: background-color 0.2s ease-in-out;
 }
+.see-more-btn button a{
+  text-decoration: none;
+  color: white;
+}
 .see-more-btn button:hover {
   background-color: rgb(64, 64, 64);
 }
@@ -364,6 +376,10 @@ body {
   padding-block: 1rem;
   cursor: pointer;
   transition: background-color 0.2s ease-in-out;
+}
+.contact-section button a{
+  text-decoration: none;
+  color: white;
 }
 .contact-section button:hover {
   background-color: rgb(64, 64, 64);
@@ -478,4 +494,261 @@ body {
   font-family: "lato";
   font-weight: 400;
   font-size: 1rem;
+}
+
+@media screen and  (max-width:412px) {
+  
+  * {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+  body {
+  font-size: 62.5%;
+}
+  .header{
+    width:79%;
+    height: 60%;
+      background-size: cover;
+      height: 25vh;
+    
+  }
+  .header nav{
+    display: flex;
+    gap:0;
+    width: 70%;
+    margin-right: 10%;
+  }
+  .logo{
+    font-size: 100%;
+    margin-right: 0%;
+    padding-right:10%;
+  }
+  .nav-list{
+    display: flex;
+    gap:30px;
+    margin-right: 60%;
+    align-items: center;
+  }
+  .nav-links  {
+    gap:1.3rem;
+   margin-right: 20%;
+   list-style: none;
+  display: flex;
+  
+}
+  
+  .nav-links a{
+    font-size: 50%;
+    margin-right: 20%;
+    text-decoration: none;
+  color: rgb(32, 32, 32);
+  font-family: "lato";
+  font-weight: 500;
+}
+  
+  .fa-cart-shopping{
+    font-size: 70%;
+    margin-right: 30%;
+  }
+  .hero{
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    position: relative;
+    gap:15%;
+    
+
+  }
+  /* .hero h2{
+    font-size:13px;
+    width: 170px;
+    position: absolute;
+    bottom:70%;
+    right:470%;
+    
+  } */
+  .hero-text h2{
+    font-size:13px;
+    width: 170px;
+    position: absolute;
+    bottom:65%;
+    right:40%;
+  }
+  .hero-text p{
+  position: absolute;
+  width: 200px;
+  font-size: 7px;
+  bottom:23%;
+  right:37%;
+  }
+  .hero-text button{
+    position: absolute;
+    top:65%;
+    right:70%;
+    font-size: 7px;
+    width: 30%;
+    padding-block: 0.3rem;
+
+  }
+  .hero-img img{
+    width: 40%;
+    margin-left:42%;
+   
+   
+  }
+  .hero-img img{
+    aspect-ratio: 2/3;
+   position: relative;
+   bottom:40%;
+   width:100%;
+
+  }
+   .about-section{
+    
+    position: relative;
+
+   }
+   .about-me-img{
+    position: absolute;
+    width:30%;
+    bottom:99%;
+    right:67%;
+   }
+   .about-me{
+    width: 40%;
+
+   }
+   .about-me h2{
+    font-size: 12px;
+   position: fixed;
+   left:32%;
+   bottom:75%;
+    
+   }
+   .about-me p{
+    font-size: 7px;
+    position:fixed ;
+    width:45%;
+    left:32%;
+    bottom:64%;
+   }
+   .about-me button{
+    font-size: 7px;
+    width: 20%;
+    padding-block: 0.3rem;
+    position: fixed;
+    left: 32%;
+    bottom:64%;
+    
+   }
+   .passions-section{
+    width:70%;
+   }
+   .passions-section h1{
+    font-size: 25px;
+    font-family: "Cormorant SC";
+     font-weight: 800;
+  text-transform: uppercase;
+  text-align: center;
+   }
+   .passions-section h1 span {
+  font-size: 2rem;
+}
+.passion-imgs {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+  margin-block: 1rem 0.5rem;
+}
+.painting img,
+.murals img,
+.drawing img {
+  width: 100%;
+  cursor: pointer;
+}
+.painting h2,
+.murals h2,
+.drawing h2 {
+  text-align: center;
+  font-family: "Cormorant SC";
+  font-size: 1rem;
+  font-weight: 600;
+  text-transform: uppercase;
+  line-height: 1.5;
+  margin-block: 1rem 0;
+}
+.blog {
+  position: relative;
+  padding-inline: 2rem;
+  margin-block: 3rem 0;
+}
+.blog h2 {
+  font-family: "Cormorant SC";
+  font-size: 1rem;
+  font-weight: 600;
+  text-transform: uppercase;
+  line-height: 1.5;
+  text-align: center;
+  margin-right:60px;
+}
+.blog h2 span {
+  font-size: 2rem;
+}
+
+.blog h3 {
+  font-size: 2rem;
+  position: absolute;
+  font-family: "caveat";
+  font-weight: 300;
+  top: 17%;
+  left: 40%;
+  font-style: italic;
+  letter-spacing: 0.3rem;
+  transform: translateY(-40%) rotate(-15deg);
+}
+.blog-post {
+  display: flex;
+  width: 80%;
+  margin-top: 2rem;
+  margin-right:0px;
+}
+.blog-img {
+  width: 50%;
+}
+
+.blog-img img {
+  width: 100%;
+  object-fit: cover;
+  object-position: center;
+  aspect-ratio: 3/3;
+}
+
+.blog-text {
+  background-color: rgb(186 170 150);
+  width: 60%;
+  color: rgb(255, 254, 253);
+  padding-inline: 4rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  height:30%;
+}
+.blog-text h2 {
+  font-family: "Cormorant SC";
+  font-size: 1rem;
+  font-weight: 600;
+  text-transform: uppercase;
+  line-height: 1.5;
+  text-align: left;
+  width:300px;
+}
+.blog-text p {
+  font-family: "lato ";
+  font-weight: 400;
+  font-size: 10px;
+  width:200px;
+  margin-block: 1rem 1.8rem;
+  line-height: 1.5;
+}
 }
