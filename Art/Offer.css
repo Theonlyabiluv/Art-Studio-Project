@@ -114,6 +114,10 @@ color: rgb(32, 32, 32);
 height:80px;  
     color: #ffffff;
 }
+#cart button a{
+    color: white;
+    text-decoration: none;
+}
 #cart button:hover{
     background-color: rgb(64, 64, 64);
 }
@@ -202,6 +206,13 @@ height:80px;
 height:80px;  
     color: #ffffff;
 }
+#wall button a{
+    color: white;
+    text-decoration: none;
+}
+#wall button:hover{
+    background-color: rgb(64, 64, 64);
+}
 #paint-2 {
     display: flex;
     gap:2rem;
@@ -284,6 +295,10 @@ color: rgb(32, 32, 32);
     width:300px;
 height:80px;  
     color: #ffffff;
+}
+#cart button a{
+    text-decoration: none;
+    color: white;
 }
 #cart button:hover{
     background-color: rgb(64, 64, 64);

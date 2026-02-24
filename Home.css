@@ -313,6 +313,10 @@ body {
   cursor: pointer;
   transition: background-color 0.2s ease-in-out;
 }
+.blog-text button a{
+  text-decoration: none;
+  color:white;
+}
 .blog-text button:hover {
   background-color: rgb(64, 64, 64);
 }
